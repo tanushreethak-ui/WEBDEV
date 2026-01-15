@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | NITP Robotics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { 
+        box-sizing: border-box; 
+        overflow-x: hidden; 
+        background-color: #0a0a0a; 
+        color: white;
+        font-family: sans-serif;
+    }
+  </style>
+ </head>
+ <body class="h-full">
+  <div id="app-wrapper" class="flex flex-col min-h-screen">
+    
+    <header class="fixed top-0 left-0 w-full z-50 bg-[#0a0a0a]/90 backdrop-blur-lg border-b border-white/5 py-4 px-8">
+     <nav class="max-w-6xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-3">
+       <svg width="32" height="32" viewbox="0 0 40 40" fill="none" class="text-blue-500" xmlns="http://www.w3.org/2000/svg">
+         <rect x="8" y="8" width="24" height="24" rx="2" stroke="currentColor" stroke-width="2" /> 
+         <circle cx="14" cy="14" r="2" fill="currentColor" /> 
+         <circle cx="26" cy="14" r="2" fill="currentColor" /> 
+         <path d="M15 24 Q20 28 25 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" /> 
+         <circle cx="20" cy="4" r="2" fill="currentColor" />
+       </svg>
+       <span class="text-lg font-bold tracking-tight text-white">NITP Robotics</span>
+      </div>
+
+      <div class="hidden lg:flex gap-8 text-[11px] font-bold uppercase tracking-[0.2em]">
+        <a href="index.html" class="text-white transition-all duration-300 hover:scale-125 hover:text-blue-400">Home</a> 
+        <a href="about.html" class="text-white transition-all duration-300 hover:scale-125 hover:text-blue-400">About</a> 
+        <a href="achievements.html" class="text-white transition-all duration-300 hover:scale-125 hover:text-blue-400">Achievements</a>
+        <a href="projects.html" class="text-white transition-all duration-300 hover:scale-125 hover:text-blue-400">Projects</a> 
+        <a href="news.html" class="text-white transition-all duration-300 hover:scale-125 hover:text-blue-400">News</a>
+        <a href="events.html" class="text-blue-400 scale-110 transition-all duration-300 hover:scale-125 hover:text-blue-400">Events</a>
+        <a href="team.html" class="text-white transition-all duration-300 hover:scale-125 hover:text-blue-400">Team</a>
+      </div>
+     </nav>
+    </header>
+
+    <main class="w-full flex-grow pt-32 pb-20 px-8">
+      <div class="max-w-6xl mx-auto">
+        
+        <div class="mb-16 border-b border-white/10 pb-8 flex flex-col md:flex-row justify-between items-end gap-4">
+            <div>
+                <h1 class="text-5xl font-black mb-4">UPCOMING <span class="text-blue-500">EVENTS</span></h1>
+                <p class="opacity-70 max-w-2xl text-lg">Join our workshops, hackathons, and guest lectures.</p>
+            </div>
+            <button class="bg-white/5 border border-white/20 px-6 py-2 rounded text-sm font-bold hover:bg-white hover:text-black transition-all">View Past Events Archive</button>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div class="bg-[#111] border border-white/10 rounded-xl overflow-hidden hover:border-blue-500/50 transition-all group flex flex-col">
+                <div class="h-48 bg-blue-900/20 relative flex items-center justify-center overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#111] to-transparent"></div>
+                    <div class="absolute top-4 right-4 bg-blue-600 text-white p-2 rounded text-center min-w-[60px] shadow-lg">
+                        <span class="block text-xl font-bold">15</span>
+                        <span class="block text-[10px] font-bold uppercase tracking-wider">Feb</span>
+                    </div>
+                    <svg class="w-16 h-16 text-blue-500 opacity-50 group-hover:scale-110 transition-transform duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                </div>
+                
+                <div class="p-6 flex-grow flex flex-col">
+                    <span class="text-blue-400 text-xs font-bold uppercase tracking-widest mb-2">Flagship Event</span>
+                    <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-400 transition-colors">RoboWars 2026</h3>
+                    <div class="flex items-center gap-4 text-sm opacity-60 mb-4">
+                        <span class="flex items-center gap-1">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            10:00 AM
+                        </span>
+                        <span class="flex items-center gap-1">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            Main Ground
+                        </span>
+                    </div>
+                    <p class="opacity-70 text-sm mb-6 leading-relaxed">The ultimate combat robotics showdown. Watch 30kg and 60kg bots battle for supremacy.</p>
+                    <button class="mt-auto w-full py-3 bg-blue-600 rounded font-bold hover:bg-blue-500 transition-colors">Register Now</button>
+                </div>
+            </div>
+
+            <div class="bg-[#111] border border-white/10 rounded-xl overflow-hidden hover:border-blue-500/50 transition-all group flex flex-col">
+                <div class="h-48 bg-gray-800/50 relative flex items-center justify-center overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#111] to-transparent"></div>
+                    <div class="absolute top-4 right-4 bg-gray-700 text-white p-2 rounded text-center min-w-[60px]">
+                        <span class="block text-xl font-bold">20</span>
+                        <span class="block text-[10px] font-bold uppercase tracking-wider">Feb</span>
+                    </div>
+                    <svg class="w-16 h-16 text-gray-500 opacity-50 group-hover:scale-110 transition-transform duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                </div>
+                
+                <div class="p-6 flex-grow flex flex-col">
+                    <span class="text-green-400 text-xs font-bold uppercase tracking-widest mb-2">Workshop</span>
+                    <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-400 transition-colors">Arduino Basics</h3>
+                    <div class="flex items-center gap-4 text-sm opacity-60 mb-4">
+                        <span class="flex items-center gap-1">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            02:00 PM
+                        </span>
+                        <span class="flex items-center gap-1">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            Lab 204
+                        </span>
+                    </div>
+                    <p class="opacity-70 text-sm mb-6 leading-relaxed">A beginner-friendly session on microcontrollers. Kits will be provided to teams of 3.</p>
+                    <button class="mt-auto w-full py-3 border border-white/20 rounded font-bold hover:bg-white hover:text-black transition-colors">View Details</button>
+                </div>
+            </div>
+
+            <div class="bg-[#111] border border-white/10 rounded-xl overflow-hidden hover:border-blue-500/50 transition-all group flex flex-col">
+                <div class="h-48 bg-gray-800/50 relative flex items-center justify-center overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#111] to-transparent"></div>
+                    <div class="absolute top-4 right-4 bg-gray-700 text-white p-2 rounded text-center min-w-[60px]">
+                        <span class="block text-xl font-bold">05</span>
+                        <span class="block text-[10px] font-bold uppercase tracking-wider">Mar</span>
+                    </div>
+                    <svg class="w-16 h-16 text-gray-500 opacity-50 group-hover:scale-110 transition-transform duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </div>
+                
+                <div class="p-6 flex-grow flex flex-col">
+                    <span class="text-purple-400 text-xs font-bold uppercase tracking-widest mb-2">Guest Lecture</span>
+                    <h3 class="text-2xl font-bold mb-3 group-hover:text-blue-400 transition-colors">AI in Robotics</h3>
+                    <div class="flex items-center gap-4 text-sm opacity-60 mb-4">
+                        <span class="flex items-center gap-1">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            11:00 AM
+                        </span>
+                        <span class="flex items-center gap-1">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            Seminar Hall
+                        </span>
+                    </div>
+                    <p class="opacity-70 text-sm mb-6 leading-relaxed">Dr. A. Verma from ISRO discusses the future of autonomous navigation systems.</p>
+                    <button class="mt-auto w-full py-3 border border-white/20 rounded font-bold hover:bg-white hover:text-black transition-colors">RSVP</button>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="w-full py-10 px-8 text-center border-t border-white/5 bg-[#0a0a0a]">
+        <p class="opacity-30 text-xs uppercase tracking-widest text-white">© 2026 Robotics Club NIT Patna</p>
+    </footer>
+  </div>
+ </body>
+</html>

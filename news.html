@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News & Updates | NITP Robotics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { 
+        box-sizing: border-box; 
+        overflow-x: hidden; 
+        background-color: #0a0a0a; 
+        color: white;
+        font-family: sans-serif;
+    }
+  </style>
+ </head>
+ <body class="h-full">
+  <div id="app-wrapper" class="flex flex-col min-h-screen">
+    
+    <header class="fixed top-0 left-0 w-full z-50 bg-[#0a0a0a]/90 backdrop-blur-lg border-b border-white/5 py-4 px-8">
+     <nav class="max-w-6xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-3">
+       <svg width="32" height="32" viewbox="0 0 40 40" fill="none" class="text-blue-500" xmlns="http://www.w3.org/2000/svg">
+         <rect x="8" y="8" width="24" height="24" rx="2" stroke="currentColor" stroke-width="2" /> 
+         <circle cx="14" cy="14" r="2" fill="currentColor" /> 
+         <circle cx="26" cy="14" r="2" fill="currentColor" /> 
+         <path d="M15 24 Q20 28 25 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" /> 
+         <circle cx="20" cy="4" r="2" fill="currentColor" />
+       </svg>
+       <span class="text-lg font-bold tracking-tight text-white">NITP Robotics</span>
+      </div>
+
+      <div class="hidden lg:flex gap-8 text-[11px] font-bold uppercase tracking-[0.2em]">
+        <a href="index.html" class="text-white transition-all duration-300 hover:scale-125 hover:text-blue-400">Home</a> 
+        <a href="about.html" class="text-white transition-all duration-300 hover:scale-125 hover:text-blue-400">About</a> 
+        <a href="achievements.html" class="text-white transition-all duration-300 hover:scale-125 hover:text-blue-400">Achievements</a>
+        <a href="projects.html" class="text-white transition-all duration-300 hover:scale-125 hover:text-blue-400">Projects</a> 
+        <a href="news.html" class="text-blue-400 scale-110 transition-all duration-300 hover:scale-125 hover:text-blue-400">News</a>
+        <a href="events.html" class="text-white transition-all duration-300 hover:scale-125 hover:text-blue-400">Events</a>
+        <a href="team.html" class="text-white transition-all duration-300 hover:scale-125 hover:text-blue-400">Team</a>
+      </div>
+     </nav>
+    </header>
+
+    <main class="w-full flex-grow pt-32 pb-20 px-8">
+      <div class="max-w-4xl mx-auto">
+        
+        <div class="mb-16 border-b border-white/10 pb-8">
+            <h1 class="text-5xl font-black mb-4">CLUB <span class="text-blue-500">UPDATES</span></h1>
+            <p class="opacity-70 max-w-2xl text-lg">Announcements, recruitment news, and tech updates from the campus.</p>
+        </div>
+
+        <div class="space-y-8">
+
+            <div class="flex flex-col md:flex-row bg-gradient-to-r from-blue-900/20 to-transparent border border-blue-500/30 rounded-xl overflow-hidden hover:border-blue-500 transition-all duration-300">
+                <div class="md:w-48 bg-blue-600/10 flex flex-col items-center justify-center p-6 border-r border-blue-500/10 text-center">
+                    <span class="text-sm font-bold text-blue-400 uppercase tracking-widest mb-1">Latest</span>
+                    <span class="text-4xl font-black text-white">10</span>
+                    <span class="text-lg font-bold text-white/70 uppercase">JAN</span>
+                    <span class="text-xs opacity-50 mt-2">2026</span>
+                </div>
+                <div class="p-8 flex flex-col justify-center">
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="bg-blue-500 text-white text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Recruitment</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-white">Inductions for Batch '29 Declared</h3>
+                    <p class="opacity-70 mb-6 leading-relaxed">The results for the first round of inductions are out. All selected candidates have received an email regarding the interview schedule. Check your inbox!</p>
+                    <a href="#" class="text-blue-400 font-bold hover:text-white transition-colors text-sm flex items-center gap-2">
+                        Read Full Notice <span class="text-lg">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:bg-white/10 transition-all duration-300">
+                <div class="md:w-32 bg-gray-800/50 flex flex-col items-center justify-center p-4 border-r border-white/5 text-center">
+                    <span class="text-3xl font-bold text-gray-300">24</span>
+                    <span class="text-sm font-bold text-gray-400 uppercase">DEC</span>
+                    <span class="text-xs opacity-30 mt-1">2025</span>
+                </div>
+                <div class="p-6 flex flex-col justify-center w-full">
+                    <div class="flex items-center gap-3 mb-2">
+                        <span class="text-blue-400 text-[10px] font-bold uppercase tracking-widest border border-blue-400/30 px-2 py-0.5 rounded">Achievement</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-white">Victory at TechSagar 2025</h3>
+                    <p class="opacity-60 text-sm mb-4">Our team 'RoboWarriors' secured the 2nd position in the Maze Solver competition held at IIT Patna.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:bg-white/10 transition-all duration-300">
+                <div class="md:w-32 bg-gray-800/50 flex flex-col items-center justify-center p-4 border-r border-white/5 text-center">
+                    <span class="text-3xl font-bold text-gray-300">05</span>
+                    <span class="text-sm font-bold text-gray-400 uppercase">DEC</span>
+                    <span class="text-xs opacity-30 mt-1">2025</span>
+                </div>
+                <div class="p-6 flex flex-col justify-center w-full">
+                    <div class="flex items-center gap-3 mb-2">
+                        <span class="text-purple-400 text-[10px] font-bold uppercase tracking-widest border border-purple-400/30 px-2 py-0.5 rounded">Workshop</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-white">Winter IoT Bootcamp Concluded</h3>
+                    <p class="opacity-60 text-sm mb-4">Over 150 first-year students participated in our week-long boot camp on Internet of Things and basic electronics.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:bg-white/10 transition-all duration-300">
+                <div class="md:w-32 bg-gray-800/50 flex flex-col items-center justify-center p-4 border-r border-white/5 text-center">
+                    <span class="text-3xl font-bold text-gray-300">12</span>
+                    <span class="text-sm font-bold text-gray-400 uppercase">NOV</span>
+                    <span class="text-xs opacity-30 mt-1">2025</span>
+                </div>
+                <div class="p-6 flex flex-col justify-center w-full">
+                    <div class="flex items-center gap-3 mb-2">
+                        <span class="text-green-400 text-[10px] font-bold uppercase tracking-widest border border-green-400/30 px-2 py-0.5 rounded">Funding</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-white">New Lab Equipment Arrived</h3>
+                    <p class="opacity-60 text-sm mb-4">The club has procured 5 new Bambu Lab 3D printers and a high-precision CNC machine for the fabrication lab.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mt-12 text-center">
+            <button class="px-6 py-3 border border-white/20 rounded hover:bg-white hover:text-black transition-all font-bold text-sm uppercase tracking-widest">Load Older News</button>
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="w-full py-10 px-8 text-center border-t border-white/5 bg-[#0a0a0a]">
+        <p class="opacity-30 text-xs uppercase tracking-widest text-white">© 2026 Robotics Club NIT Patna</p>
+    </footer>
+  </div>
+ </body>
+</html>
